@@ -228,7 +228,7 @@ background: transparent;
   transform: translateX(-50%);
   position: absolute;
   opacity: 0;
-  transition: 0.5s;
+  transition: 1s;
 }
 .layer:hover h3{
   bottom: 50%;
@@ -237,6 +237,7 @@ background: transparent;
 }
 .layer h3:hover{
   color: #ddfdfa;
+  transition: 1s;
   font-size: 30px;
 
 }
