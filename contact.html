@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta name="viewport" content="device-width, initial-scale=1.0">
+<title>Contact page
+</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+Lao+Looped&display=swap" rel="stylesheet"><body>
+    
+    
+    
+        <section class="view">
+        <style>
+
+        </style>
+       
+       <nav>
+        <a href="index.html"> <img src="images/logo.jpeg"></a>
+
+        <div class="N-links" id="Nlinks">
+          <i class="fa fa-times" onclick="hideMenu()"></i>
+            <ul>
+                <li><a href="./index.html#top">HOME</a></li>
+                <li><a href="./index.html#purpose">OUR SERVICES</a></li>
+                <li><a href="./index.html#based">WHERE TO FIND US?</a></li>
+                <li><a href="./index.html#recruitment">RECRUITMENT</a></li>
+                <li><a href="./index.html#testimony">TESTIMONIALS</a></li>
+                <li><a href="">CONTACT</a></li>
+            </ul>
+
+        </div>
+
+        <i class="fa fa-bars"  onclick="showMenu()"></i>
+
+    </nav>
+        <section class="contact">
+            <div class="contact">
+            <h1>Contact Us</h1>
+            <p>Office Address: <br>
+SLC Care HQ
+            
+Unit 007, Victory Business Centre,
+                
+Somers RD, Oxford
+                
+                OX1 2TG
+        <br>        
+Email:   SLCCarers.co.uk
+                
+                
+Mobile: 07713 XXX 262</p>
+            </div>
+            <form action="./submit.html" method="post" class="details" id="details">
+            <section class="details">
+                <label for="name">Your Name</label>
+                <br>
+                      <input type="text" name="name" id="details" >
+              </section>
+              <section class="number">
+                <label for="name">Your Number</label>
+                <br>
+                      <input type="number" name="number" id="details" >
+              </section>
+              <section class="subject">
+                <label for="subject">Subject</label>
+                <br>
+                      <input type="text" name="name" id="details" list="subject" >
+                      <datalist id="subject">
+                        <option>Social Care</option>
+                          <option>Nursing</option>
+                        <option>Live In</option>
+                        
+                     <option>Domilicary</option>
+                     <option>Other</option>
+
+                          
+                            </datalist>					
+                            <section class="message">
+                                <label for="message">Message</label>
+
+                                <br>
+                
+                                     <a href="./submit.html"></a> <textarea id="messagea" name="message" cols="30" rows="6"></textarea>
+<br><br><input type="submit" value="Send"></a>
+              </section>
+            </form>
+        </section>
+
+
+
+
+
+
+
+    <script>
+
+        var Nlink = document.getElementedById("Nlinks");
+            function showMenu(){
+            Nlinks.style.right = "0";
+        }
+            function hideMenu(){
+            Nlinks.style.right = "-200px";
+        }
+    
+    
+    
+    </script>
+    
+               
+
+        
+
+
+
+
+
+
+
+</section>
+</body>
+
+
+
+        </html>
